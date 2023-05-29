@@ -35,7 +35,7 @@ docker build -t port_mapping_test .
 - --rm (remove) 
 
 ```bash
-docker run -it --rm port_mapping_test
+docker run -it --rm -p 5000:5000 port_mapping_testa
 ```
 
 # Dockerfile
