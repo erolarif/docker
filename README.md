@@ -32,7 +32,8 @@ docker build -t port_mapping_test .
 ## Run
 - To run the docker image run command can be used.
 - -it (interactive terminal) allows you to interact with the container's shell or command prompt, similar to how you would interact with a terminal on a local machine. Without -it command it typically starts in the background, and you don't have direct access to the container's terminal.
-- --rm (remove) 
+- --rm (remove) instructs Docker to automatically remove the container once it exits or stops running.
+- -p host-port:container-port allows you to publish (or expose) network ports from the container to the host system.  
 
 ```bash
 docker run -it --rm -p 5000:5000 port_mapping_test
