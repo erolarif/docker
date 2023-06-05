@@ -24,7 +24,7 @@ sudo apt-get install git-all
 
 ## Cloning To GitHub Repository
 ```bash
-git clone https://github.com/erolarif/docker_comm.git
+git clone https://github.com/erolarif/docker.git
 ```
 ## Build 
 - To build the Dockerfile you should run the command below in the file which is cloned from the repostory.
