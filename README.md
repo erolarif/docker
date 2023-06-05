@@ -74,7 +74,13 @@ if __name__ == '__main__':
 ```
 
 
-- Receiver code is given below. This code will be run in your computer.
+- Receiver code is given below. This code will be run in your computer. In order to run the code you can run the command below.
+
+```bash
+python3 senderr.py
+```
+
+-  Receiver Code is given below.
 
 ```python
 # Receiver Code
@@ -85,5 +91,11 @@ response = requests.get('http://localhost:5000')
 print(response.json())
 ```
 
-- First run the Trasnmitter code in the docker container. After that when you run the receiver code there will be a communication between your docker container and computer.
+- First run the Trasnmitter code in the docker container. After that when you run the receiver code there will be a communication between your docker container and computer. In order to run the code you can run the command below.
+
+```bash
+python3 receiver.py
+```
+
+
 
